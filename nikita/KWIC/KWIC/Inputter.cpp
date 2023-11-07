@@ -43,7 +43,7 @@ vector<string> Inputter::get_lines(int& number)
 void Inputter::fill_with_example(int& number, vector<string>& lines) {
     number = 3;
 
-    lines.push_back("This work was done by some genous!");
+    lines.push_back("This work was done by some genius!");
     lines.push_back("KWIC is an acronym for Key Word In Context, the most common format for concordance lines");
     lines.push_back("the free encyclopedia");
 }

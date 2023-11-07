@@ -40,7 +40,10 @@ public:
 		string return_list_str = "";
 
 		for (tuple<int, int, string, string> entry : indexed_list) {
-			return_list_str += get<2>(entry) + " (page " + to_string(get<0>(entry) + 1) + "): " + get<3>(entry) + "\n";
+			if (get<2>(entry).size() > 7)
+				return_list_str += get<2>(entry) + "\tpage " + to_string(get<0>(entry) + 1) + "\t\t" + get<3>(entry) + "\n";
+			else
+				return_list_str += get<2>(entry) + "\t\tpage " + to_string(get<0>(entry) + 1) + "\t\t" + get<3>(entry) + "\n";
 		}
 
 		return return_list_str;
