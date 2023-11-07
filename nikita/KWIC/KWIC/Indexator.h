@@ -31,22 +31,12 @@ public:
 		}
 
 		add_context_everything();
-		sort_tuple(indexed_list);
+		sort_indexes();
 	}
-
-	//operator std::string() const {
-	//	string return_list_str;
-
-	//	for (tuple<int, int, string, string> entry : indexed_list) {
-	//		return_list_str += (get<3>(entry)) + "\n";
-	//	}
-
-	//	return return_list_str;
-	//}
 
 	string print_result() {
 		string return_list_str = "";
-		
+
 		for (tuple<int, int, string, string> entry : indexed_list) {
 			return_list_str += get<2>(entry) + " (page " + to_string(get<0>(entry) + 1) + "): " + get<3>(entry) + "\n";
 		}
@@ -59,5 +49,5 @@ private:
 	vector<tuple<int, string>> find_key_words(vector<string> line);
 	void add_context_everything();
 	void split_everything(vector<string>& init_lines, bool is_orig = false);
-	void sort_tuple(vector<tuple<int, int, string, string>>);
+	void sort_indexes();
 };

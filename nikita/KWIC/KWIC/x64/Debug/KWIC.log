@@ -1,6 +1,3 @@
 ﻿  Indexator.cpp
 C:\Users\NIxklag\Desktop\KWIC\KWIC\Indexator.cpp(33,60): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  KWIC.cpp
-C:\Users\NIxklag\Desktop\KWIC\KWIC\KWIC.cpp(7,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Generating Code...
   KWIC.vcxproj -> C:\Users\NIxklag\Desktop\KWIC\x64\Debug\KWIC.exe

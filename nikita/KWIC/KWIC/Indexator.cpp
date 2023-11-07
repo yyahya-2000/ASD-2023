@@ -72,7 +72,17 @@ void Indexator::split_everything(vector<string>& init_lines, bool is_orig)
 	}
 }
 
-void Indexator::sort_tuple(vector<tuple<int, int, string, string>>)
+void Indexator::sort_indexes()
 {
-	// no sort
+	tuple<int, int, string, string> temp;
+
+	for (int i = 0; i < indexed_list.size(); ++i) {
+		for (int j = 0; j < indexed_list.size() - 1; ++j) {
+			if (get<2>(indexed_list[j]).compare(get<2>(indexed_list[j + 1])) > 0) {
+				temp = indexed_list[j + 1];
+				indexed_list[j + 1] = indexed_list[j];
+				indexed_list[j] = temp;
+			}
+		}
+	}
 }

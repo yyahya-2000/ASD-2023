@@ -15,4 +15,3 @@ public:
 private:
 	static void fill_with_example(int& number, vector<string>& lines);
 };
-
