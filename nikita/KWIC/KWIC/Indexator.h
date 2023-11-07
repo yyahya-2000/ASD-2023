@@ -3,6 +3,7 @@
 #include <vector>
 #include<tuple>
 #include <random>
+#include <cstring>
 
 using namespace std;
 
@@ -31,6 +32,7 @@ public:
 		}
 
 		add_context_everything();
+		lower_all_indexes();
 		sort_indexes();
 	}
 
@@ -50,4 +52,5 @@ private:
 	void add_context_everything();
 	void split_everything(vector<string>& init_lines, bool is_orig = false);
 	void sort_indexes();
+	void lower_all_indexes();
 };

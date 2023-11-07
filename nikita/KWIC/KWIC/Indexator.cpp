@@ -1,12 +1,9 @@
 #include "Indexator.h"
-#include <iostream>
 
 void Indexator::clear_text(vector<string>& line)
 {
 	for (int i = 0; i < line.size(); ++i) {
-		line[i].erase(remove(line[i].begin(), line[i].end(), ','), line[i].end());
-		line[i].erase(remove(line[i].begin(), line[i].end(), '.'), line[i].end());
-		line[i].erase(remove(line[i].begin(), line[i].end(), '!'), line[i].end());
+		line[i].erase(remove_if(line[i].begin(), line[i].end(), [](char a) {return (a == '.') || (a == ',') || (a == '!'); }), line[i].end());
 	}
 }
 
@@ -84,5 +81,13 @@ void Indexator::sort_indexes()
 				indexed_list[j] = temp;
 			}
 		}
+	}
+}
+
+void Indexator::lower_all_indexes()
+{
+	for (int i = 0; i < indexed_list.size(); ++i) { 
+		for (int j = 0; j < get<2>(indexed_list[i]).size(); ++j)
+			get<2>(indexed_list[i])[j] = tolower(get<2>(indexed_list[i])[j]);
 	}
 }
