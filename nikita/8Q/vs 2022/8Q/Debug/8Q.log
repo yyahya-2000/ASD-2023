@@ -1,0 +1,6 @@
+﻿  8Q.cpp
+C:\Users\NIxklag\Desktop\8Q\8Q\8Q.cpp(16,23): warning C4018: '<': signed/unsigned mismatch
+  Chess_board.cpp
+  Queen.cpp
+  Generating Code...
+  8Q.vcxproj -> C:\Users\NIxklag\Desktop\8Q\Debug\8Q.exe

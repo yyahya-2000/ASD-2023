@@ -1,0 +1,202 @@
+﻿  Event.cpp
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,13): error C2011: 'Event': 'class' type redefinition
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,7): message : see declaration of 'Event'
+C:\Users\NIxklag\Desktop\8Q\Events\EventListener.cpp(3,21): error C2011: 'EventListener': 'class' type redefinition
+C:\Users\NIxklag\Desktop\8Q\Events\EventListener.cpp(3,7): message : see declaration of 'EventListener'
+C:\Users\NIxklag\Desktop\8Q\Events\EventPublisher.cpp(11,13): error C2027: use of undefined type 'EventListener'
+C:\Users\NIxklag\Desktop\8Q\Events\EventListener.cpp(3,7): message : see declaration of 'EventListener'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(14,28): error C2504: 'EventListener': base class undefined
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,12): error C2065: 'Queen': undeclared identifier
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,5): error C2923: 'std::vector': 'Queen' is not a valid template type argument for parameter '_Ty'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,12): message : see declaration of 'Queen'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,5): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,19): error C2955: 'std::vector': use of class template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,49): error C2065: 'Queen': undeclared identifier
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,42): error C2923: 'std::vector': 'Queen' is not a valid template type argument for parameter '_Ty'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,49): message : see declaration of 'Queen'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,42): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,56): error C2955: 'std::vector': use of class template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,33): error C2065: 'Queen': undeclared identifier
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,26): error C2923: 'std::vector': 'Queen' is not a valid template type argument for parameter '_Ty'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,33): message : see declaration of 'Queen'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,26): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,40): error C2955: 'std::vector': use of class template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(62,10): error C3668: 'Chess_board::onEvent': method with override specifier 'override' did not override any base class methods
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(23,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(27,26): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(40,16): error C2512: 'std::vector': no appropriate default constructor available
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(48,16): error C2512: 'std::vector': no appropriate default constructor available
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(66,9): error C2027: use of undefined type 'Event'
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,7): message : see declaration of 'Event'
+  EventListener.cpp
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,13): error C2011: 'Event': 'class' type redefinition
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,7): message : see declaration of 'Event'
+C:\Users\NIxklag\Desktop\8Q\Events\EventListener.cpp(3,21): error C2011: 'EventListener': 'class' type redefinition
+C:\Users\NIxklag\Desktop\8Q\Events\EventListener.cpp(3,7): message : see declaration of 'EventListener'
+C:\Users\NIxklag\Desktop\8Q\Events\EventPublisher.cpp(11,13): error C2027: use of undefined type 'EventListener'
+C:\Users\NIxklag\Desktop\8Q\Events\EventListener.cpp(3,7): message : see declaration of 'EventListener'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(14,28): error C2504: 'EventListener': base class undefined
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,12): error C2065: 'Queen': undeclared identifier
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,5): error C2923: 'std::vector': 'Queen' is not a valid template type argument for parameter '_Ty'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,12): message : see declaration of 'Queen'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,5): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,19): error C2955: 'std::vector': use of class template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,49): error C2065: 'Queen': undeclared identifier
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,42): error C2923: 'std::vector': 'Queen' is not a valid template type argument for parameter '_Ty'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,49): message : see declaration of 'Queen'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,42): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,56): error C2955: 'std::vector': use of class template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,33): error C2065: 'Queen': undeclared identifier
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,26): error C2923: 'std::vector': 'Queen' is not a valid template type argument for parameter '_Ty'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,33): message : see declaration of 'Queen'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,26): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,40): error C2955: 'std::vector': use of class template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(62,10): error C3668: 'Chess_board::onEvent': method with override specifier 'override' did not override any base class methods
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(23,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(27,26): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(40,16): error C2512: 'std::vector': no appropriate default constructor available
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(48,16): error C2512: 'std::vector': no appropriate default constructor available
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(66,9): error C2027: use of undefined type 'Event'
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,7): message : see declaration of 'Event'
+  EventPublisher.cpp
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,13): error C2011: 'Event': 'class' type redefinition
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,7): message : see declaration of 'Event'
+C:\Users\NIxklag\Desktop\8Q\Events\EventListener.cpp(3,21): error C2011: 'EventListener': 'class' type redefinition
+C:\Users\NIxklag\Desktop\8Q\Events\EventListener.cpp(3,7): message : see declaration of 'EventListener'
+C:\Users\NIxklag\Desktop\8Q\Events\EventPublisher.cpp(11,13): error C2027: use of undefined type 'EventListener'
+C:\Users\NIxklag\Desktop\8Q\Events\EventListener.cpp(3,7): message : see declaration of 'EventListener'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(14,28): error C2504: 'EventListener': base class undefined
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,12): error C2065: 'Queen': undeclared identifier
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,5): error C2923: 'std::vector': 'Queen' is not a valid template type argument for parameter '_Ty'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,12): message : see declaration of 'Queen'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,5): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,19): error C2955: 'std::vector': use of class template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,49): error C2065: 'Queen': undeclared identifier
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,42): error C2923: 'std::vector': 'Queen' is not a valid template type argument for parameter '_Ty'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,49): message : see declaration of 'Queen'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,42): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,56): error C2955: 'std::vector': use of class template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,33): error C2065: 'Queen': undeclared identifier
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,26): error C2923: 'std::vector': 'Queen' is not a valid template type argument for parameter '_Ty'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,33): message : see declaration of 'Queen'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,26): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,40): error C2955: 'std::vector': use of class template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(62,10): error C3668: 'Chess_board::onEvent': method with override specifier 'override' did not override any base class methods
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(23,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(27,26): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(40,16): error C2512: 'std::vector': no appropriate default constructor available
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(48,16): error C2512: 'std::vector': no appropriate default constructor available
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(66,9): error C2027: use of undefined type 'Event'
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,7): message : see declaration of 'Event'
+C:\Users\NIxklag\Desktop\8Q\Events\EventPublisher.cpp(3,22): error C2011: 'EventPublisher': 'class' type redefinition
+C:\Users\NIxklag\Desktop\8Q\Events\EventPublisher.cpp(3,7): message : see declaration of 'EventPublisher'
+  8Q.cpp
+C:\Users\NIxklag\Desktop\8Q\8Q\Queen.h(15,16): error C2061: syntax error: identifier 'Chess_board'
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,13): error C2011: 'Event': 'class' type redefinition
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,7): message : see declaration of 'Event'
+C:\Users\NIxklag\Desktop\8Q\Events\EventListener.cpp(3,21): error C2011: 'EventListener': 'class' type redefinition
+C:\Users\NIxklag\Desktop\8Q\Events\EventListener.cpp(3,7): message : see declaration of 'EventListener'
+C:\Users\NIxklag\Desktop\8Q\Events\EventPublisher.cpp(11,13): error C2027: use of undefined type 'EventListener'
+C:\Users\NIxklag\Desktop\8Q\Events\EventListener.cpp(3,7): message : see declaration of 'EventListener'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(14,28): error C2504: 'EventListener': base class undefined
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(62,10): error C3668: 'Chess_board::onEvent': method with override specifier 'override' did not override any base class methods
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(23,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(27,26): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(66,9): error C2027: use of undefined type 'Event'
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,7): message : see declaration of 'Event'
+C:\Users\NIxklag\Desktop\8Q\Events\EventPublisher.cpp(3,22): error C2011: 'EventPublisher': 'class' type redefinition
+C:\Users\NIxklag\Desktop\8Q\Events\EventPublisher.cpp(3,7): message : see declaration of 'EventPublisher'
+C:\Users\NIxklag\Desktop\8Q\8Q\8Q.cpp(15,20): error C2079: 'publisher' uses undefined class 'EventPublisher'
+C:\Users\NIxklag\Desktop\8Q\8Q\8Q.cpp(17,22): error C2665: 'Chess_board::Chess_board': no overloaded function could convert all the argument types
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(40,5): message : could be 'Chess_board::Chess_board(Event *,EventPublisher *)'
+C:\Users\NIxklag\Desktop\8Q\8Q\8Q.cpp(17,22): message : 'Chess_board::Chess_board(Event *,EventPublisher *)': cannot convert argument 2 from 'int *' to 'EventPublisher *'
+C:\Users\NIxklag\Desktop\8Q\8Q\8Q.cpp(17,36): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\NIxklag\Desktop\8Q\8Q\8Q.cpp(17,22): message : while trying to match the argument list '(Event *, int *)'
+C:\Users\NIxklag\Desktop\8Q\8Q\8Q.cpp(22,9): error C2027: use of undefined type 'Event'
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,7): message : see declaration of 'Event'
+C:\Users\NIxklag\Desktop\8Q\8Q\8Q.cpp(25,48): error C2027: use of undefined type 'Event'
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,7): message : see declaration of 'Event'
+  Chess_board.cpp
+C:\Users\NIxklag\Desktop\8Q\8Q\Queen.h(15,16): error C2061: syntax error: identifier 'Chess_board'
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,13): error C2011: 'Event': 'class' type redefinition
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,7): message : see declaration of 'Event'
+C:\Users\NIxklag\Desktop\8Q\Events\EventListener.cpp(3,21): error C2011: 'EventListener': 'class' type redefinition
+C:\Users\NIxklag\Desktop\8Q\Events\EventListener.cpp(3,7): message : see declaration of 'EventListener'
+C:\Users\NIxklag\Desktop\8Q\Events\EventPublisher.cpp(11,13): error C2027: use of undefined type 'EventListener'
+C:\Users\NIxklag\Desktop\8Q\Events\EventListener.cpp(3,7): message : see declaration of 'EventListener'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(14,28): error C2504: 'EventListener': base class undefined
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(62,10): error C3668: 'Chess_board::onEvent': method with override specifier 'override' did not override any base class methods
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(23,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(27,26): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(66,9): error C2027: use of undefined type 'Event'
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,7): message : see declaration of 'Event'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.cpp(4,45): error C2027: use of undefined type 'Event'
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,7): message : see declaration of 'Event'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.cpp(74,13): error C2027: use of undefined type 'Event'
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,7): message : see declaration of 'Event'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.cpp(82,69): error C2660: 'Queen::check': function does not take 1 arguments
+C:\Users\NIxklag\Desktop\8Q\8Q\Queen.h(15,10): message : see declaration of 'Queen::check'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.cpp(82,69): message : while trying to match the argument list '(Chess_board)'
+  Queen.cpp
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,13): error C2011: 'Event': 'class' type redefinition
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,7): message : see declaration of 'Event'
+C:\Users\NIxklag\Desktop\8Q\Events\EventListener.cpp(3,21): error C2011: 'EventListener': 'class' type redefinition
+C:\Users\NIxklag\Desktop\8Q\Events\EventListener.cpp(3,7): message : see declaration of 'EventListener'
+C:\Users\NIxklag\Desktop\8Q\Events\EventPublisher.cpp(11,13): error C2027: use of undefined type 'EventListener'
+C:\Users\NIxklag\Desktop\8Q\Events\EventListener.cpp(3,7): message : see declaration of 'EventListener'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(14,28): error C2504: 'EventListener': base class undefined
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,12): error C2065: 'Queen': undeclared identifier
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,5): error C2923: 'std::vector': 'Queen' is not a valid template type argument for parameter '_Ty'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,12): message : see declaration of 'Queen'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,5): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(17,19): error C2955: 'std::vector': use of class template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,49): error C2065: 'Queen': undeclared identifier
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,42): error C2923: 'std::vector': 'Queen' is not a valid template type argument for parameter '_Ty'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,49): message : see declaration of 'Queen'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,42): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(49,56): error C2955: 'std::vector': use of class template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,33): error C2065: 'Queen': undeclared identifier
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,26): error C2923: 'std::vector': 'Queen' is not a valid template type argument for parameter '_Ty'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,33): message : see declaration of 'Queen'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,26): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(71,40): error C2955: 'std::vector': use of class template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(62,10): error C3668: 'Chess_board::onEvent': method with override specifier 'override' did not override any base class methods
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(23,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(27,26): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(40,16): error C2512: 'std::vector': no appropriate default constructor available
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(48,16): error C2512: 'std::vector': no appropriate default constructor available
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : see declaration of 'std::vector'
+C:\Users\NIxklag\Desktop\8Q\8Q\Chess_board.h(66,9): error C2027: use of undefined type 'Event'
+C:\Users\NIxklag\Desktop\8Q\Events\Event.cpp(6,7): message : see declaration of 'Event'
+  Generating Code...
